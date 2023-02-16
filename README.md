@@ -10,7 +10,7 @@
   <body>
   <div class="menu">
     <ul>
-      <li><a href="index.html">home</a></li>
+      <li><a href="home.html">home</a></li>
 
       <li><a href="apropos.html">à propos</a></li>
 
