@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
   <head>
-    <link rel="shortcut icon" href="../Images/branche.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="branche.ico" type="image/x-icon"/>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>A l'écoute des objets</title>
@@ -25,41 +25,25 @@
     </ul>
   </div>
 	<!-- heading -->
-	<div class="contact">
+	<div class="form-horizontal">
 
                                 
-
-		<!-- form starting -->
-		<form class="form-horizontal" method="post" action="contact.php">
 		<p>Un commentaire, une question ou une proposition?</p>
-			<div class="form-group">
-			<div class="col-sm-12">
-				<!-- name -->
-				<input type="text" class="form-control" id="name" placeholder="Votre nom" name="name" value=""/>
-			</div>
-			</div>
+      <form action="mailto:eric.m.mersch@gmail.com" method="get" enctype="text/plain">
+      <p>Nom: <br/><input type="text" name="name" /></p>
+      <p>Votre E-mail:<br/><input type="text" name="email" /></p>
+      <p>
+        Votre message:
+        <br />
+        <textarea name="comments" rows="12" cols="35"></textarea>
+        <br />
+      </p>
 
-			<div class="form-group">
-			<div class="col-sm-12">
-				<!-- email -->
-				<input type="email" class="form-control" id="email" placeholder="Votre adresse e-mail" name="email" value=""/>
-			</div>
-			</div>
+      <p>
+        <input type="submit" name="submit" value="Send" />
+      </p>
+    </form>
 
-
-			<div class="form-group">
-			<div class="col-sm-12">
-			<!-- message -->
-			<textarea class="form-control" rows="10" placeholder="Votre message..." name="message"></textarea>
-			</div>
-			</div>
-
-			<button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-			
-			<span class="send-text">SEND</span>
-			</button></form>
-		
-		<!-- end of form -->
 		
 
 		
