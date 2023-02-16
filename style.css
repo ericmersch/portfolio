@@ -19,8 +19,8 @@ ul li a {
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 12px;
-  padding: 20px;
+  font-size: 2vw;
+  padding: 2vw;
   /*border:2px solid;*/
   /*pour avoir un effet "outset" avec IE :*/
   /*border-color:#DCDCDC #696969 #696969 #DCDCDC;*/
@@ -39,7 +39,7 @@ ul li a:hover {
   color: white;
 }
 .center {
-  background: no-repeat top/100% url(header.jpg);
+  background: no-repeat top/100% url(cover_p.jpg);
   /*height: 90%;*/
   padding: 14%;
   text-align: center;
