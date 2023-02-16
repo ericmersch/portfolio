@@ -19,7 +19,7 @@ ul li a {
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 2vw;
+  font-size: max(2vw, 12px);
   padding: 2vw;
   /*border:2px solid;*/
   /*pour avoir un effet "outset" avec IE :*/
