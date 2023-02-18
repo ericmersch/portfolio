@@ -1,5 +1,5 @@
 body {
-  background: top/100% url(../Images/noir.jpg);
+  background: #000000;
   margin: 0;
     padding: 0;
   font-family: "Open Sans", serif;
@@ -39,7 +39,7 @@ ul li a:hover {
   color: white;
 }
 .center {
-  background: no-repeat top/100% url(../Images/cover_p.jpg);
+  background: no-repeat top/100% url(cover_p.jpg);
   padding: 26%;
   text-align: center;
   color: white;
