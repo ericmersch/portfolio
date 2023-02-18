@@ -177,6 +177,7 @@ ul li a:hover {
   width: 60%;
   height: 700px;
   vertical-align: center;
+  animation: fadeIn 3s;
 }
 .contact {
   background: #000;
