@@ -186,12 +186,19 @@ ul li a:hover {
   height: auto;
 }
 .form-horizontal {
-  /* #604022;*/
+  position: absolute;
   text-align: center;
   font-weight: lighter;
-  width: 100%;
   color: white;
 }
+
+.form-horizontal a{
+  position: absolute;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+}
+
 input {
   width: 60%;
 }
