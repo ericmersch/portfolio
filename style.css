@@ -140,7 +140,7 @@ ul li a:hover {
   right: 10%;
   -webkit-transform: translate(-90%, -50%);
   -ms-transform: translate(-90%, -50%);
-  transform: translate(0%, 0%);
+  transform: translate(0%, -50%);
   text-align: justify;
 }
 .text-large {
@@ -152,7 +152,7 @@ ul li a:hover {
   right: 5%;
   -webkit-transform: translate(-95%, -95%);
   -ms-transform: translate(-95%, -95%);
-  transform: translate(0%, -50%);
+  transform: translate(0%, 0%);
   text-align: justify;
 }
 
